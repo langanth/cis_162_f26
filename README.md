@@ -2,7 +2,9 @@
 
 ## Instructor Information
 **Instructor:** Anthony Langley
+<br>
 **Office:** MAK C-2-310
+<br>
 **Office Hours:**
 - MWF: 11:00am-12:00pm @ Office
 - M: 1:00pm-2:00pm Computing Success Center
