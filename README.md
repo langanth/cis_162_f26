@@ -3,7 +3,6 @@
 ## Instructor Information
 **Instructor:** Anthony Langley
 **Office:** MAK C-2-310
-**Email:** langanth@gvsu.edu
 **Office Hours:**
 - MWF: 11:00am-12:00pm @ Office
 - M: 1:00pm-2:00pm Computing Success Center
