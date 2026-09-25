@@ -16,7 +16,7 @@ strokes = int(input('How many strokes were taken when playing this hole?: '))
 """A year in the modern Gregorian Calendar consists of 365 days.
 In reality, the earth takes longer to rotate around the sun. 
 To account for the difference in time, every 4 years, a leap year
-takes place. A leap year is whne a year has 366 days. An extra day,
+takes place. A leap year is when a year has 366 days. An extra day,
 February 29th. The requirements for a given year to be a leap year are:
 
 1. The year must be divisible by 4
