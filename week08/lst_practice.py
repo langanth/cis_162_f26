@@ -38,3 +38,17 @@ middle_way([5, 2, 9], [1, 4, 5]) → [2, 4]
 
 middle_way(a, b):
     pass
+
+
+"""
+Return the number of evens in the given array.
+All values are assumed to be integers. 
+
+count_even([2, 1, 2, 3, 4]) -> 3
+count_evens([2, 2, 0]) -> 
+count_evens([1,3, 5]) -> 0
+
+"""
+
+count_evens(lst):
+    pass
