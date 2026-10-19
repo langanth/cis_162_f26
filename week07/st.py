@@ -12,4 +12,5 @@ sp = '/'
 
 for i in lst:
     print(splice(i, sp))
+    
 #print(splice(st, sp))

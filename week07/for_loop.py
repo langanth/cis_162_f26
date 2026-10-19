@@ -20,3 +20,8 @@ for i in range(0, 10):
 
 for i in range(len(st) - 1, -1, -1):
     print(i, end='')
+
+
+st = 'hello'
+for i in st:
+    print(i)
