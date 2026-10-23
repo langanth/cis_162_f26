@@ -79,3 +79,6 @@ for i in lst:
 
 if ui in lst:
     print('True')
+
+if ui in lst:
+    print(lst.index(ui))

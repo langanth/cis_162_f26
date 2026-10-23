@@ -17,3 +17,29 @@ print(d)
 # print(d["D"])
 print(d.get('D'))
 print(d.get('D', -1))
+
+print(d)
+#d.clear()
+print(d)
+
+d2 = {'D': 68, 'E': 69, 'F': 70}
+print(d)
+print(d2)
+d.update(d2)
+print('='*25)
+print(d)
+print(d2)
+print('='*25)
+d2['G'] = 71
+d.update(d2)
+print(d)
+print(d2)
+
+d['A'] = 97
+print(d)
+print(d2)
+d2['A'] = 65
+
+d.update(d2)
+print(d)
+print(d2)
