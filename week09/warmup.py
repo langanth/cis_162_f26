@@ -10,4 +10,12 @@ countdown(30) -> 22
 """
 
 def countdown(num):
-    pass
+    for i in range(num, 10, -1):
+        st = str(i)
+        if st[0] == st[1]:
+            return i
+
+
+print(countdown(86))
+print(countdown(74))
+print(countdown(15))
