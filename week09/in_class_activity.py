@@ -45,6 +45,8 @@ if __name__ == "__main__":
         print_board(board)
         row = int(input(f'{current_player}, please select a row to place your {current_marker} [0, 1, or 2]: '))
         column = int(input(f'{current_player}, please select a column to place your {current_marker} [0, 1, or 2]: '))
+        if row <= 0 or row >= 2 or column <= 0 or column >= 2:
+            print('Invalid coordinate, try selecting again!')
         if board[row][column] != '-':
             print('Invalid placement, try selecting again!')
             continue
