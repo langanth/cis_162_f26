@@ -16,6 +16,9 @@ class Cart:
         for v in self.items.values():
             total += (v["value"] * v["qty"])
         return total
+'''tim = Cart('Tim')
+tim.add_to_cart('carrot', 111, 3)
+print(tim.sub_total())'''
 
 if __name__ == "__main__":
     jeff = Cart('Jeff')
