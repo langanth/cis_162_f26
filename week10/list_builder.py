@@ -1,5 +1,11 @@
 
 systems = []
+st.lower()
+
+def func(st):
+    return st.lower()
+
+print(func('ABC'))
 
 while True:
     entry = input('Enter thing: ').strip().lower()

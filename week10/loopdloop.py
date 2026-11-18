@@ -17,6 +17,5 @@ def loop_slicer(lst):
     for i in range(len(lst)):
         print(lst[i:])
 
-loop_slicer([1,2,3,4,5])
 if __name__ == "__main__":
     loop_slicer([1,2,3,4,5])
