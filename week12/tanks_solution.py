@@ -54,6 +54,8 @@ class Tank:
                 print(f'{self.name} hit {target.name} with {attack} damage!')
             else:
                 print(f'{self.name} missed {target.name}.')
+        else:
+            print(f'{self.name} missed {target.name}.')
 
 def generate_tanks(num: int) -> list:
     tanks = []
