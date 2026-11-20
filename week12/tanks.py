@@ -87,7 +87,7 @@ if __name__ == "__main__":
                         break
                     else:
                         continue
-                    t.moves += 1
+                    tanks[t].moves += 1
 
                 elif choice == 'd':
                     done = True
