@@ -100,16 +100,16 @@ if __name__ == "__main__":
                 elif choice == 'm':
                     move_choice = input("Enter what direction you wish to move (u, d, l, r or q if you want to stop moving): ")
                     if move_choice.lower() == 'u':
-                        distance = int(input(f"How many spaces do you want to move up? (must be less than or equal to {t.speed - t.moves})"))
+                        distance = int(input(f"How many spaces do you want to move up? (must be less than or equal to {tanks[t].speed - tanks[t].moves})"))
                         t.move_up(distance)
                     elif move_choice.lower() == 'd':
-                        distance = int(input(f"How many spaces do you want to move down? (must be less than or equal to {t.speed - t.moves})"))
+                        distance = int(input(f"How many spaces do you want to move down? (must be less than or equal to {tanks[t].speed - tanks[t].moves})"))
                         t.move_down(distance)
                     elif move_choice.lower() == 'l':
-                        distance = int(input(f"How many spaces do you want to move left? (must be less than or equal to {t.speed - t.moves})"))
+                        distance = int(input(f"How many spaces do you want to move left? (must be less than or equal to {tanks[t].speed - tanks[t].moves})"))
                         t.move_left(distance)
                     elif move_choice.lower() == 'r':
-                        distance = int(input(f"How many spaces do you want to move right? (must be less than or equal to {t.speed - t.moves})"))
+                        distance = int(input(f"How many spaces do you want to move right? (must be less than or equal to {tanks[t].speed - tanks[t].moves})"))
                         t.move_right(distance)
                     elif move_choice == 'q':
                         break
